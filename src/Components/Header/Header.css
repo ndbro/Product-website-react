@@ -1,0 +1,59 @@
+a{
+  text-decoration: none;
+  color: #173A56;
+}
+li{
+  list-style-type: none;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo{
+  display: flex;
+}
+.nav-logo h2{
+  padding: 10px;
+  color: #173A56;
+}
+
+.list-items{
+  display: flex;
+  padding-top: 18px;
+  gap: 20px;
+}
+.list-item{
+  display: block;
+}
+/* Buttons */
+.signin{
+  background-color: #ffff;
+  color: #173A56;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.signup{
+  background-color: #02897A;
+  color: #fff;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.burgermenu{
+  display: none;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1000px){
+  .list-item{
+  display: none;
+  }
+  .burgermenu{
+    display: block;
+  }
+}

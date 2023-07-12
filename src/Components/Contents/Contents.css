@@ -1,0 +1,35 @@
+.contents{
+  margin-top: 200px;
+}
+.contents p{
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.cards-wrapper{
+  display: flex;
+  gap: 30px;
+}
+.content-card{
+  width: 350px;
+  height: 310px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  margin-bottom: 30px;
+}
+.content-card p, h3{
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+/* IMAGE */
+.contents-image{
+  margin-top: 200px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+  .cards-wrapper{
+  display: block;
+  gap: 30px;
+}
+}
